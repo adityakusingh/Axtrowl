@@ -1,0 +1,104 @@
+.Products-wrapper{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+h2{
+    text-align: center;
+}
+.filters{
+    padding: 15px;
+}
+.filters p{
+    margin-bottom: 7px;
+    font-size: 15px;
+}
+.filters h4{
+    margin-bottom :0.5rem;
+   
+}
+.categories{
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  font-size: 0.9rem;
+  
+}
+.categories div{
+  
+  border-bottom: solid black 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    
+    border-width: 1px;
+    margin:0;
+    height: 30px;
+   
+    
+    text-align: center;
+}
+.categories div:hover{
+ background-color: rgb(214, 211, 211);
+ box-shadow: 0 5px 5px rgba(0,0,0,0.5);
+ font-weight: 500;
+}
+.categories{
+    border: solid black 1px;
+    border-radius: 2px;
+    height: 170px;
+}
+.categories div:last-child{
+    border: none;
+}
+.filters span{
+    font-size: 12px;
+    display: inline-block;
+    margin-right: 25px;
+}
+.clr {
+    background-color: rgb(22, 9, 9);
+    color: white;
+    border-radius: 3px;
+    text-align: center;
+    margin-top: 1rem;
+    padding: 5px;
+}
+.clr:hover{
+    background-color: rgba(0,0,0,0.8);
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+}
+.cards{
+    box-shadow: 0px 0px 2px rgba(0,0,0,0.5);
+    border-radius: 5px;
+    box-shadow: 0 0px 5px rgb(201, 201, 208);
+   
+    transition: box-shadow 0.3s linear, 
+                transform 0.3s ease,
+                background-color 0.3s ease;
+}
+.cards:hover{
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    box-shadow: 0 10px 15px  rgb(201, 201, 208);
+    transform: translateY(-2px);
+    
+}
+.cards div{
+    text-align: center;
+    font-weight: 500;
+    padding: 1rem;
+}
+.product-cards{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    padding: 2rem;
+}
+.cards p{
+    text-align: center;
+
+}
+#first-child{
+    margin-left: 3rem;
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Axtrowl Tournament Registration</title>
+  <link rel="stylesheet" href="axtrowl.css" />
+  <style>
+    body {
+      background-color: #1a1a1a;
+      color: #fff;
+      font-family: 'Arial', sans-serif;
+    }
+
+    .container {
+      max-width: 500px;
+      margin: 50px auto;
+      padding: 30px;
+      background-color: #2a2a2a;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+      text-align: center;
+    }
+
+    .logo {
+      max-width: 120px;
+      margin-bottom: 15px;
+    }
+
+    h1 {
+      margin-bottom: 20px;
+    }
+
+    form {
+      text-align: left;
+    }
+
+    form label {
+      display: block;
+      margin: 15px 0 5px;
+    }
+
+    input, select, textarea {
+      width: 100%;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      margin-bottom: 10px;
+      font-size: 16px;
+    }
+
+    button {
+      width: 100%;
+      padding: 12px;
+      background-color: #00b894;
+      color: white;
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #019875;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Logo -->
+    <img src="AXTROWL LOGO.jpg" alt="Axtrowl Logo" class="logo" />
+
+    <h1>Axtrowl India Tournament Registration</h1>
+    <form>
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email Address:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="game">Select Game:</label>
+      <select id="game" name="game" required>
+        <option value="">-- Choose Game --</option>
+        <option value="freefire">Free Fire</option>
+        <option value="pubg">PUBG</option>
+        <option value="valorant">Valorant</option>
+        <option value="cod">Call of Duty</option>
+      </select>
+
+      <label for="team">Team Name (if any):</label>
+      <input type="text" id="team" name="team">
+
+      <label for="message">Additional Message:</label>
+      <textarea id="message" name="message" rows="4"></textarea>
+
+      <button type="submit">Register Now</button>
+    </form>
+  </div>
+</body>
+</html>
+
